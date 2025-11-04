@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tlinky.AdminWeb.props" />
+</Project>

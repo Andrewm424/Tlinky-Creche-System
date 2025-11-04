@@ -1,0 +1,19 @@
+# ASP.NET build files
+bin/
+obj/
+*.user
+*.suo
+
+# Flutter build files
+.dart_tool/
+build/
+android/
+ios/
+
+# IDE files
+.vscode/
+.idea/
+
+# Secrets
+.env
+

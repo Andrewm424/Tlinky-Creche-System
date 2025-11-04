@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Announcements";
+}
+
+<div class="card">
+    <div class="flex-between" style="margin-bottom:12px">
+        
+        <button class="btn primary" id="btnAddAnnouncement">+ New Message</button>
+    </div>
+
+    <ul id="announcementList"
+        style="list-style:none; padding:0; display:flex; flex-direction:column; gap:10px">
+        <li class="card"><p>Loading announcements...</p></li>
+    </ul>
+</div>
+
+@section Scripts {
+    <script src="~/js/announcements.js"></script>
+}

@@ -1,0 +1,141 @@
+﻿@model Tlinky.AdminWeb.Models.SystemSetting
+@{
+    ViewData["Title"] = "Settings";
+}
+
+<!-- 🏫 School Information -->
+<div class="card settings-card">
+    <h3>School Information</h3>
+    <p><strong>Name:</strong> @Model.SchoolName</p>
+    <p><strong>Contact:</strong> @Model.Phone • @Model.Email</p>
+    <p><strong>Principal:</strong> @Model.Principal</p>
+    <button class="btn primary" onclick="openSchoolModal()">Edit</button>
+</div>
+
+<!-- 💰 Fees & Billing -->
+<div class="card settings-card">
+    <h3>Fees & Billing</h3>
+    <p><strong>Base Fee:</strong> R@($"{Model.BaseMonthlyFee:F2}")</p>
+    <p><strong>Toddler Fee:</strong> R@($"{Model.ToddlerFee:F2}")</p>
+    <p><strong>Preschool Fee:</strong> R@($"{Model.PreschoolFee:F2}")</p>
+    <p><strong>Late Fee:</strong> R@($"{Model.LateFeeAmount:F2}")</p>
+    <p><strong>Late Fee Policy:</strong> @(Model.LateFeePolicy ? "Enabled" : "Disabled")</p>
+    <button class="btn primary" onclick="openFeesModal()">Edit Fees</button>
+</div>
+
+
+<!-- ⚙️ Preferences -->
+<div class="card settings-card">
+    <h3>General Preferences</h3>
+    <p><strong>Notifications:</strong> @(Model.NotificationsEnabled ? "Enabled" : "Disabled")</p>
+    <p><strong>Term Dates:</strong> @Model.TermDates</p>
+    <button class="btn primary" onclick="openPrefsModal()">Edit Preferences</button>
+</div>
+
+@section Scripts {
+    <script>
+        async function openSchoolModal() {
+            openModal(`
+                <h3>Edit School Info</h3>
+                <input id='sName' class='search' value='@Model.SchoolName' placeholder='School Name'><br><br>
+                <input id='sEmail' class='search' value='@Model.Email' placeholder='Email'><br><br>
+                <input id='sPhone' class='search' value='@Model.Phone' placeholder='Contact'><br><br>
+                <input id='sPrincipal' class='search' value='@Model.Principal' placeholder='Principal'><br><br>
+                <div class="modal-actions">
+                    <button class="btn" onclick="closeModal()">Cancel</button>
+                    <button class="btn primary" onclick="saveSchool()">Save</button>
+                </div>
+            `);
+        }
+
+        async function saveSchool() {
+            const body = {
+                schoolName: document.getElementById('sName').value,
+                email: document.getElementById('sEmail').value,
+                phone: document.getElementById('sPhone').value,
+                principal: document.getElementById('sPrincipal').value
+            };
+            const res = await fetch('/Settings/UpdateSchool', {
+                method: 'PUT', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body)
+            });
+            if (res.ok) { tlinkyToast('School info updated'); location.reload(); }
+            else alert('Failed to update');
+        }
+
+        async function openFeesModal() {
+            openModal(`
+                <h3>Set Fee Structure</h3>
+                <label>Base Monthly Fee (R)</label>
+                <input id='base' type='number' class='search' value='@Model.BaseMonthlyFee'><br><br>
+                <label>Toddler Fee (R)</label>
+                <input id='toddler' type='number' class='search' value='@Model.ToddlerFee'><br><br>
+                <label>Preschool Fee (R)</label>
+                <input id='preschool' type='number' class='search' value='@Model.PreschoolFee'><br><br>
+                <label>Late Fee Amount (R)</label>
+                <input id='late' type='number' class='search' value='@Model.LateFeeAmount'><br><br>
+                <label><input id='latePolicy' type='checkbox' @(Model.LateFeePolicy ? "checked" : "") /> Enable Late Fee Policy</label><br><br>
+                <div class="modal-actions">
+                    <button class="btn" onclick="closeModal()">Cancel</button>
+                    <button class="btn primary" onclick="saveFees()">Save</button>
+                </div>
+            `);
+        }
+
+        async function saveFees() {
+            const body = {
+                baseMonthlyFee: parseFloat(document.getElementById('base').value),
+                toddlerFee: parseFloat(document.getElementById('toddler').value),
+                preschoolFee: parseFloat(document.getElementById('preschool').value),
+                lateFeeAmount: parseFloat(document.getElementById('late').value),
+                lateFeePolicy: document.getElementById('latePolicy').checked
+            };
+            const res = await fetch('/Settings/UpdateFees', {
+                method: 'PUT', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body)
+            });
+            if (res.ok) { tlinkyToast('Fees updated'); location.reload(); }
+            else alert('Failed to update fees');
+        }
+
+        async function openPrefsModal() {
+            openModal(`
+                <h3>Update Preferences</h3>
+                <label><input id='notif' type='checkbox' @(Model.NotificationsEnabled ? "checked" : "") /> Enable Notifications</label><br><br>
+                <label>Term Dates</label>
+                <input id='term' class='search' type='text' value='@Model.TermDates'><br><br>
+                <div class="modal-actions">
+                    <button class="btn" onclick="closeModal()">Cancel</button>
+                    <button class="btn primary" onclick="savePrefs()">Save</button>
+                </div>
+            `);
+        }
+
+        async function savePrefs() {
+            const body = {
+                notificationsEnabled: document.getElementById('notif').checked,
+                termDates: document.getElementById('term').value
+            };
+            const res = await fetch('/Settings/UpdatePrefs', {
+                method: 'PUT', headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body)
+            });
+            if (res.ok) { tlinkyToast('Preferences updated'); location.reload(); }
+            else alert('Failed to update preferences');
+        }
+    </script>
+
+    <style>
+        .settings-card {
+            margin-top: 24px;
+            padding: 20px 24px;
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 12px;
+        }
+    </style>
+}

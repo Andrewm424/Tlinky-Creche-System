@@ -1,0 +1,1235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\incidentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\incidentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\paymentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\paymentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\children.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\children.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\teachers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\teachers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\teachers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\teachers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\childrencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\childrencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\children\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\children\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\child.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\childrenapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\childrenapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\parent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\classes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\classes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\shared\\_topbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\notificationsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\notificationsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\tlinky.adminweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:tlinky.adminweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\incidents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\incidents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\teacherapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\parents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\parents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\parents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\parents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\parentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\parentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\attendanceapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\attendanceapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\announcements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\announcements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\parentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\parentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\announcementsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\announcementsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\incidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\migrations\\20251030084239_addadminseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:migrations\\20251030084239_addadminseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\migrations\\20251030081837_addadminuserseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:migrations\\20251030081837_addadminuserseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\migrations\\20251030224531_addincidenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:migrations\\20251030224531_addincidenttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\systemuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\attendance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\attendance.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\settings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\settings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\models\\systemsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:models\\systemsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:views\\payments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\payments.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\payments.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\helpers\\feecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:helpers\\feecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\js\\payments.js||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\js\\payments.js||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|d:\\tlinky creche\\tlinky.adminweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{251A93D1-A417-471D-9F10-7C8FB65A5170}|Tlinky.AdminWeb.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 503,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv18AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-07T12:27:20.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "teachers.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\teachers.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\teachers.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\teachers.js",
+              "RelativeToolTip": "wwwroot\\js\\teachers.js",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAwwOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-21T13:21:19.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Teachers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teachers\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Teachers\\Index.cshtml",
+              "RelativeToolTip": "Views\\Teachers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T08:53:31.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\PaymentApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\PaymentApiController.cs",
+              "RelativeToolTip": "Controllers\\PaymentApiController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:26:22.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncidentApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\IncidentApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IncidentApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\IncidentApiController.cs",
+              "RelativeToolTip": "Controllers\\IncidentApiController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wCsAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T22:40:00.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Controllers\\UploadController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T08:17:34.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:08:37.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-16T10:18:25.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeachersController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "Controllers\\TeachersController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:01:51.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Children\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Children\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Children\\Index.cshtml",
+              "RelativeToolTip": "Views\\Children\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T09:57:31.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChildrenApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ChildrenApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChildrenApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ChildrenApiController.cs",
+              "RelativeToolTip": "Controllers\\ChildrenApiController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:23:40.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:32:14.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "children.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\children.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\children.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\children.js",
+              "RelativeToolTip": "wwwroot\\js\\children.js",
+              "ViewState": "AgIAANsAAAAAAAAAAADwv/8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-21T12:47:18.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChildrenController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ChildrenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChildrenController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ChildrenController.cs",
+              "RelativeToolTip": "Controllers\\ChildrenController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:30:18.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Child.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Child.cs",
+              "RelativeDocumentMoniker": "Models\\Child.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Child.cs",
+              "RelativeToolTip": "Models\\Child.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:06:48.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Settings\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Settings\\Index.cshtml",
+              "RelativeToolTip": "Views\\Settings\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T07:14:24.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv28AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:04:00.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassesController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "Controllers\\ClassesController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwE4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:01:02.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "Models\\Class.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Class.cs",
+              "RelativeToolTip": "Models\\Class.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:07:35.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Parent.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Parent.cs",
+              "RelativeDocumentMoniker": "Models\\Parent.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Parent.cs",
+              "RelativeToolTip": "Models\\Parent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:06:10.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Classes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Classes\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Classes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Classes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T08:52:07.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T09:46:19.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T09:19:41.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "classes.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\classes.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\classes.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\classes.js",
+              "RelativeToolTip": "wwwroot\\js\\classes.js",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwv6oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-21T13:16:12.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-15T09:20:37.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationsApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\NotificationsApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\NotificationsApiController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsApiController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T09:49:02.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Topbar.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Topbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Topbar.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Topbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Topbar.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T12:10:23.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T12:09:59.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T08:38:21.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Incidents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Incidents\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Incidents\\Index.cshtml",
+              "RelativeToolTip": "Views\\Incidents\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T23:10:34.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reports\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Reports\\Index.cshtml",
+              "RelativeToolTip": "Views\\Reports\\Index.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T07:18:57.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Controllers\\ReportsController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAiwMYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:14:42.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TeacherApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\TeacherApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\TeacherApiController.cs",
+              "RelativeToolTip": "Controllers\\TeacherApiController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAqwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T21:33:12.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Tlinky.AdminWeb",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Tlinky.AdminWeb.csproj",
+              "RelativeDocumentMoniker": "Tlinky.AdminWeb.csproj",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Tlinky.AdminWeb.csproj",
+              "RelativeToolTip": "Tlinky.AdminWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T05:57:38.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "parents.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\parents.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\parents.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\parents.js",
+              "RelativeToolTip": "wwwroot\\js\\parents.js",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAwO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-23T12:33:51.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T07:02:53.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Parents\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Parents\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Parents\\Index.cshtml",
+              "RelativeToolTip": "Views\\Parents\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T08:54:07.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T07:03:43.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ParentApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ParentApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParentApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ParentApiController.cs",
+              "RelativeToolTip": "Controllers\\ParentApiController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwI0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T00:48:40.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Models\\Teacher.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Teacher.cs",
+              "RelativeToolTip": "Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:07:12.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "announcements.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\announcements.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\announcements.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\announcements.js",
+              "RelativeToolTip": "wwwroot\\js\\announcements.js",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAmwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T17:02:37.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ParentsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ParentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ParentsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\ParentsController.cs",
+              "RelativeToolTip": "Controllers\\ParentsController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAADwv78AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:02:14.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AnnouncementsApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AnnouncementsApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnnouncementsApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AnnouncementsApiController.cs",
+              "RelativeToolTip": "Controllers\\AnnouncementsApiController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:54:04.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AttendanceApiController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AttendanceApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceApiController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AttendanceApiController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceApiController.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAgwMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:10:41.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Announcements\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Announcements\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Announcements\\Index.cshtml",
+              "RelativeToolTip": "Views\\Announcements\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T07:12:50.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnnouncementsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:13:21.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Announcement.cs",
+              "RelativeDocumentMoniker": "Models\\Announcement.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Announcement.cs",
+              "RelativeToolTip": "Models\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T16:14:56.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IncidentsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\IncidentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IncidentsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\IncidentsController.cs",
+              "RelativeToolTip": "Controllers\\IncidentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T22:40:37.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Incident.cs",
+              "RelativeDocumentMoniker": "Models\\Incident.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Incident.cs",
+              "RelativeToolTip": "Models\\Incident.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:09:07.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwHUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:01:31.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20251030084239_AddAdminSeed.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030084239_AddAdminSeed.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251030084239_AddAdminSeed.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030084239_AddAdminSeed.cs",
+              "RelativeToolTip": "Migrations\\20251030084239_AddAdminSeed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:07:39.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20251030081837_AddAdminUserSeed.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030081837_AddAdminUserSeed.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251030081837_AddAdminUserSeed.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030081837_AddAdminUserSeed.cs",
+              "RelativeToolTip": "Migrations\\20251030081837_AddAdminUserSeed.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:07:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20251030224531_AddIncidentTable.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030224531_AddIncidentTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251030224531_AddIncidentTable.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Migrations\\20251030224531_AddIncidentTable.cs",
+              "RelativeToolTip": "Migrations\\20251030224531_AddIncidentTable.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T23:06:29.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T08:02:11.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:27:31.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-17T09:45:11.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T10:19:07.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SystemUser.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\SystemUser.cs",
+              "RelativeDocumentMoniker": "Models\\SystemUser.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\SystemUser.cs",
+              "RelativeToolTip": "Models\\SystemUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:10:13.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Models\\Attendance.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\Attendance.cs",
+              "RelativeToolTip": "Models\\Attendance.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:07:58.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "attendance.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\attendance.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\attendance.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\attendance.js",
+              "RelativeToolTip": "wwwroot\\js\\attendance.js",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAwwNQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-28T09:57:32.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "settings.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\settings.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\settings.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\settings.js",
+              "RelativeToolTip": "wwwroot\\js\\settings.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T20:18:24.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SettingsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "Controllers\\SettingsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:15:18.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "SystemSetting.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\SystemSetting.cs",
+              "RelativeDocumentMoniker": "Models\\SystemSetting.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Models\\SystemSetting.cs",
+              "RelativeToolTip": "Models\\SystemSetting.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T12:09:35.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAYwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T13:11:23.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T09:05:32.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "payments.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\payments.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\payments.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\payments.js",
+              "RelativeToolTip": "wwwroot\\js\\payments.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T07:58:05.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Payments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Payments\\Index.cshtml",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Views\\Payments\\Index.cshtml",
+              "RelativeToolTip": "Views\\Payments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T07:12:01.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "FeeCalculator.cs",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Helpers\\FeeCalculator.cs",
+              "RelativeDocumentMoniker": "Helpers\\FeeCalculator.cs",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\Helpers\\FeeCalculator.cs",
+              "RelativeToolTip": "Helpers\\FeeCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T08:31:22.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "payments.js",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\payments.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\payments.js",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\js\\payments.js",
+              "RelativeToolTip": "wwwroot\\js\\payments.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAG4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T07:58:35.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Tlinky Creche\\Tlinky.AdminWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAALcBAAAAAAAAAAAAAMABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-15T09:21:23.726Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 359,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+﻿@inject Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper Html
+
+<nav class="menu">
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")"
+       asp-controller="Home" asp-action="Index">🏠 Dashboard</a>
+
+    <div class="menu-heading">Setup</div>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Classes" ? "active" : "")"
+       asp-controller="Classes" asp-action="Index">🏫 Classes</a>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Teachers" ? "active" : "")"
+       asp-controller="Teachers" asp-action="Index">👩‍🏫 Teachers</a>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Children" ? "active" : "")"
+       asp-controller="Children" asp-action="Index">👶 Children</a>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Parents" ? "active" : "")"
+       asp-controller="Parents" asp-action="Index">👨‍👩‍👧 Parents</a>
+
+    <div class="menu-heading">Daily Ops</div>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Attendance" ? "active" : "")"
+       asp-controller="Attendance" asp-action="Index">🗓️ Attendance</a>
+
+    <!-- ✅ New Incidents Tab -->
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Incidents" ? "active" : "")"
+       asp-controller="Incidents" asp-action="Index">
+        ⚠️ Incidents
+    </a>
+
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Payments" ? "active" : "")"
+       asp-controller="Payments" asp-action="Index">💳 Payments</a>
+
+    <div class="menu-heading">Communication</div>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Announcements" ? "active" : "")"
+       asp-controller="Announcements" asp-action="Index">✉️ Announcements</a>
+
+    <div class="menu-heading">Reports</div>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Reports" ? "active" : "")"
+       asp-controller="Reports" asp-action="Index">📄 Reports</a>
+
+    <div class="menu-heading">System</div>
+    <a class="item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Settings" ? "active" : "")"
+       asp-controller="Settings" asp-action="Index">⚙️ Settings</a>
+</nav>

@@ -1,0 +1,237 @@
+﻿@{
+    ViewData["Title"] = "Reports";
+}
+
+<div class="card reports-wrapper">
+    <p style="color:#6B7280; font-size:14px; margin-bottom:24px;">
+        Scroll through the available reports below. Click “View Full” for details or export directly.
+    </p>
+
+    <div class="reports-scroll">
+
+        <!-- Attendance Report -->
+        <div class="card report-card">
+            <h4>Attendance Summary</h4>
+            <table class="table compact">
+                <thead><tr><th>Class</th><th>Present</th><th>Absent</th><th>Late</th></tr></thead>
+                <tbody>
+                    @if (ViewBag.AttendanceSummary == null || !((IEnumerable<dynamic>)ViewBag.AttendanceSummary).Any())
+                    {
+                        <tr><td colspan="4" class="text-center">No attendance data found.</td></tr>
+                    }
+                    else
+                    {
+                        foreach (var a in ViewBag.AttendanceSummary)
+                        {
+                            <tr>
+                                <td>@a.ClassName</td>
+                                <td>@a.Present</td>
+                                <td>@a.Absent</td>
+                                <td>@a.Late</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <div class="report-actions">
+                <button class="btn" onclick="openModalTemplate('attendanceReportFull')">View Full</button>
+                <a class="btn primary" href="@Url.Action("ExportAttendancePdf", "Reports")" target="_blank">Export PDF</a>
+            </div>
+        </div>
+
+        <!-- Incident Reports -->
+        <div class="card report-card">
+            <h4>Incident Reports</h4>
+            <ul style="padding-left:18px; font-size:14px; color:#374151; margin-bottom:12px;">
+                @if (ViewBag.IncidentSummary == null || !((IEnumerable<dynamic>)ViewBag.IncidentSummary).Any())
+                {
+                    <li>No incidents logged recently.</li>
+                }
+                else
+                {
+                    foreach (var inc in ViewBag.IncidentSummary)
+                    {
+                        <li>@inc.Date – @inc.Description (@inc.ClassName)</li>
+                    }
+                }
+            </ul>
+            <div class="report-actions">
+                <button class="btn" onclick="openModalTemplate('incidentReportFull')">View Full</button>
+                <a class="btn primary" href="@Url.Action("ExportIncidentsPdf", "Reports")" target="_blank">Export PDF</a>
+            </div>
+        </div>
+
+        <!-- Fee Compliance -->
+        <div class="card report-card">
+            <h4>Fee Compliance</h4>
+            <table class="table compact">
+                <thead><tr><th>Month</th><th>Paid %</th></tr></thead>
+                <tbody>
+                    @if (ViewBag.PaymentsByMonth == null || !((IEnumerable<dynamic>)ViewBag.PaymentsByMonth).Any())
+                    {
+                        <tr><td colspan="2" class="text-center">No payment data found.</td></tr>
+                    }
+                    else
+                    {
+                        foreach (var p in ViewBag.PaymentsByMonth)
+                        {
+                            <tr>
+                                <td>@p.Month</td>
+                                <td>@p.Percent%</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <div class="report-actions">
+                <button class="btn" onclick="openModalTemplate('feeComplianceFull')">View Full</button>
+                <a class="btn primary" href="@Url.Action("ExportFeeCsv", "Reports")" target="_blank">Export CSV</a>
+            </div>
+        </div>
+
+        <!-- Children List -->
+        <div class="card report-card">
+            <h4>Children Roster</h4>
+            <table class="table compact">
+                <thead><tr><th>Name</th><th>Class</th></tr></thead>
+                <tbody>
+                    @if (ViewBag.Children == null || !((IEnumerable<dynamic>)ViewBag.Children).Any())
+                    {
+                        <tr><td colspan="2" class="text-center">No children found.</td></tr>
+                    }
+                    else
+                    {
+                        foreach (var c in ViewBag.Children)
+                        {
+                            <tr>
+                                <td>@c.FullName</td>
+                                <td>@c.ClassName</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <div class="report-actions">
+                <button class="btn" onclick="openModalTemplate('childrenListFull')">View Full</button>
+                <a class="btn primary" href="@Url.Action("ExportChildrenPdf", "Reports")" target="_blank">Export PDF</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ✅ Full Report Modals (Static for now — optional dynamic extension later) -->
+
+<template id="attendanceReportFull">
+    <h3>Full Attendance Report</h3>
+    <p style="color:#6B7280; font-size:14px">Overview of daily attendance per class.</p>
+    <table class="table">
+        <thead><tr><th>Date</th><th>Class</th><th>Status</th></tr></thead>
+        <tbody>
+            <tr><td>Sample</td><td>Example</td><td>Present</td></tr>
+        </tbody>
+    </table>
+    <div class="modal-actions">
+        <button class="btn" onclick="closeModal()">Cancel</button>
+        <a class="btn primary" href="@Url.Action("ExportAttendancePdf", "Reports")" target="_blank">Download PDF</a>
+    </div>
+</template>
+
+<template id="incidentReportFull">
+    <h3>Incident Reports – Detailed</h3>
+    <p style="color:#6B7280; font-size:14px">Recent incidents by class</p>
+    <ul style="padding-left:18px; font-size:14px; color:#374151">
+        <li>Example: Minor fall – Sunflower A</li>
+    </ul>
+    <div class="modal-actions">
+        <button class="btn" onclick="closeModal()">Cancel</button>
+        <a class="btn primary" href="@Url.Action("ExportIncidentsPdf", "Reports")" target="_blank">Download PDF</a>
+    </div>
+</template>
+
+<template id="feeComplianceFull">
+    <h3>Fee Compliance Overview</h3>
+    <p style="color:#6B7280; font-size:14px">Monthly payment performance summary.</p>
+    <table class="table">
+        <thead><tr><th>Month</th><th>Paid</th><th>Total</th><th>Rate</th></tr></thead>
+        <tbody>
+            <tr><td>Example</td><td>10</td><td>12</td><td>83%</td></tr>
+        </tbody>
+    </table>
+    <div class="modal-actions">
+        <button class="btn" onclick="closeModal()">Cancel</button>
+        <a class="btn primary" href="@Url.Action("ExportFeeCsv", "Reports")" target="_blank">Download CSV</a>
+    </div>
+</template>
+
+<template id="childrenListFull">
+    <h3>Children Roster – Full List</h3>
+    <p style="color:#6B7280; font-size:14px">All registered children with guardians</p>
+    <table class="table">
+        <thead><tr><th>Name</th><th>Class</th><th>Age</th><th>Guardian</th></tr></thead>
+        <tbody>
+            <tr><td>Example</td><td>Sunflower A</td><td>4</td><td>Mrs Dzanibe</td></tr>
+        </tbody>
+    </table>
+    <div class="modal-actions">
+        <button class="btn" onclick="closeModal()">Cancel</button>
+        <a class="btn primary" href="@Url.Action("ExportChildrenPdf", "Reports")" target="_blank">Download PDF</a>
+    </div>
+</template>
+
+<!-- ✅ Styling -->
+<style>
+    .reports-wrapper {
+        margin-top: 40px;
+        padding: 30px 28px;
+        min-height: calc(100vh - 120px);
+    }
+
+    .reports-scroll {
+        display: flex;
+        overflow-x: auto;
+        gap: 24px;
+        padding: 20px 4px 10px;
+        scroll-behavior: smooth;
+    }
+
+    .report-card {
+        min-width: 320px;
+        flex: 0 0 auto;
+        border: 1px solid #E5E7EB;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+        .report-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+    .report-actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 16px;
+    }
+
+    .table.compact th,
+    .table.compact td {
+        padding: 6px 10px;
+    }
+
+    .modal-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 12px;
+    }
+
+    .reports-scroll::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .reports-scroll::-webkit-scrollbar-thumb {
+        background: #D1D5DB;
+        border-radius: 10px;
+    }
+</style>

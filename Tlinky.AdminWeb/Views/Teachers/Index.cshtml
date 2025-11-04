@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Teachers";
+}
+
+<div class="card">
+    <div class="flex-between">
+        <button class="btn primary" id="btnAddTeacher">+ Add Teacher</button>
+    </div>
+
+    <table class="table" style="margin-top:10px">
+        <thead>
+            <tr>
+                <th style="width:64px">Photo</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Classes</th>
+                <th>Status</th>
+                <th style="width:280px">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="teachersTableBody">
+            <tr><td colspan="6">Loading...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/teachers.js"></script>
+}

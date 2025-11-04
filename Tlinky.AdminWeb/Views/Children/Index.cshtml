@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Children";
+}
+
+<div class="card">
+    <div class="flex-between">
+        <div>
+            
+            <button class="btn primary" id="btnAddChild">+ Add Child</button>
+        </div>
+    </div>
+
+    <table class="table" style="margin-top:10px">
+        <thead>
+            <tr>
+                <th style="width:64px">Photo</th>
+                <th>Full Name</th>
+                <th style="width:140px">DOB</th>
+                <th style="width:160px">Class</th>
+                <th>Allergies</th>
+                <th style="width:160px">Status</th>
+                <th style="width:280px">Actions</th>
+            </tr>
+        </thead>
+        <tbody id="childrenTableBody">
+            <tr><td colspan="7">Loading...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/children.js"></script>
+}

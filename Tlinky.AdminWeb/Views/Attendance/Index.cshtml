@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Attendance";
+}
+
+<div class="card">
+    <div class="flex-between" style="margin-bottom:12px">
+        <div style="display:flex; gap:12px">
+            <input id="attendanceDate" class="search" type="date" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+            <select id="classSelect" class="search"></select>
+        </div>
+        <div style="display:flex; gap:8px">
+            <button id="btnMarkAll" class="btn primary">Mark All Present</button>
+            <button id="btnSaveAttendance" class="btn">Save</button>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr><th>Child</th><th>Status</th><th>Notes</th></tr>
+        </thead>
+        <tbody id="attendanceTableBody">
+            <tr><td colspan="3">Loading...</td></tr>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script src="~/js/attendance.js"></script>
+}

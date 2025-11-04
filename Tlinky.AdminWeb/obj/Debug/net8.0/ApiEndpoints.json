@@ -1,0 +1,914 @@
+[
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AnnouncementsController",
+    "Method": "Delete",
+    "RelativePath": "Announcements/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.AnnouncementsApiController",
+    "Method": "GetAnnouncements",
+    "RelativePath": "api/AnnouncementsApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "audience",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.AnnouncementsApiController",
+    "Method": "GetAnnouncement",
+    "RelativePath": "api/AnnouncementsApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.AnnouncementsApiController",
+    "Method": "GetCount",
+    "RelativePath": "api/AnnouncementsApi/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "audience",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AttendanceApiController",
+    "Method": "GetAll",
+    "RelativePath": "api/AttendanceApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "classId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AttendanceApiController",
+    "Method": "Add",
+    "RelativePath": "api/AttendanceApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "records",
+        "Type": "System.Collections.Generic.List\u00601[[Tlinky.AdminWeb.Models.Attendance, Tlinky.AdminWeb, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AttendanceApiController",
+    "Method": "GetChildHistory",
+    "RelativePath": "api/AttendanceApi/child/{childId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "childId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AttendanceApiController",
+    "Method": "GetSummary",
+    "RelativePath": "api/AttendanceApi/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AuthController",
+    "Method": "LoginAdmin",
+    "RelativePath": "api/Auth/LoginAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tlinky.AdminWeb.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AuthController",
+    "Method": "LoginParent",
+    "RelativePath": "api/Auth/LoginParent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tlinky.AdminWeb.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AuthController",
+    "Method": "LoginTeacher",
+    "RelativePath": "api/Auth/LoginTeacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tlinky.AdminWeb.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/Auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenApiController",
+    "Method": "GetChildren",
+    "RelativePath": "api/ChildrenApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.IncidentApiController",
+    "Method": "Create",
+    "RelativePath": "api/IncidentApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "record",
+        "Type": "Tlinky.AdminWeb.Models.Incident",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.NotificationsApiController",
+    "Method": "GetLatest",
+    "RelativePath": "api/NotificationsApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.NotificationsApiController",
+    "Method": "Create",
+    "RelativePath": "api/NotificationsApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.Api.NotificationsApiController",
+    "Method": "ClearAll",
+    "RelativePath": "api/NotificationsApi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentApiController",
+    "Method": "GetChildren",
+    "RelativePath": "api/ParentApi/children/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentApiController",
+    "Method": "Login",
+    "RelativePath": "api/ParentApi/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Controllers.ParentApiController\u002BLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentApiController",
+    "Method": "GetOverview",
+    "RelativePath": "api/ParentApi/Overview/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentApiController",
+    "Method": "GetByParent",
+    "RelativePath": "api/PaymentApi/GetByParent/{parentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentApiController",
+    "Method": "UploadProof",
+    "RelativePath": "api/PaymentApi/UploadProof",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeacherApiController",
+    "Method": "GetTeacher",
+    "RelativePath": "api/TeacherApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeacherApiController",
+    "Method": "Login",
+    "RelativePath": "api/TeacherApi/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Controllers.TeacherApiController\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.UploadController",
+    "Method": "UploadChildPhoto",
+    "RelativePath": "api/Upload/child-photo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.UploadController",
+    "Method": "UploadPaymentProof",
+    "RelativePath": "api/Upload/payment-proof",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.UploadController",
+    "Method": "UploadTeacherPhoto",
+    "RelativePath": "api/Upload/teacher-photo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.AttendanceController",
+    "Method": "GetAll",
+    "RelativePath": "Attendance/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "Index",
+    "RelativePath": "Children",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "Add",
+    "RelativePath": "Children/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "child",
+        "Type": "Tlinky.AdminWeb.Models.Child",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "Delete",
+    "RelativePath": "Children/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "Dropdowns",
+    "RelativePath": "Children/Dropdowns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "Edit",
+    "RelativePath": "Children/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "child",
+        "Type": "Tlinky.AdminWeb.Models.Child",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "GetAll",
+    "RelativePath": "Children/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ChildrenController",
+    "Method": "GetByClass",
+    "RelativePath": "Children/GetByClass/{classId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "Index",
+    "RelativePath": "Parents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "Add",
+    "RelativePath": "Parents/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tlinky.AdminWeb.Controllers.ParentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "Delete",
+    "RelativePath": "Parents/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "Dropdowns",
+    "RelativePath": "Parents/Dropdowns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "Edit",
+    "RelativePath": "Parents/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tlinky.AdminWeb.Controllers.ParentUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "GetAll",
+    "RelativePath": "Parents/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.ParentsController",
+    "Method": "ResetPassword",
+    "RelativePath": "Parents/ResetPassword/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentsController",
+    "Method": "AttachProof",
+    "RelativePath": "Payments/AttachProof/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proofUrl",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentsController",
+    "Method": "GetByMonth",
+    "RelativePath": "Payments/ByMonth/{month}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentsController",
+    "Method": "Delete",
+    "RelativePath": "Payments/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentsController",
+    "Method": "Generate",
+    "RelativePath": "Payments/Generate/{month}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.PaymentsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "Payments/UpdateStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "update",
+        "Type": "Tlinky.AdminWeb.Models.Payment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.SettingsController",
+    "Method": "UpdateFees",
+    "RelativePath": "Settings/UpdateFees",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updated",
+        "Type": "Tlinky.AdminWeb.Models.SystemSetting",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.SettingsController",
+    "Method": "UpdatePrefs",
+    "RelativePath": "Settings/UpdatePrefs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updated",
+        "Type": "Tlinky.AdminWeb.Models.SystemSetting",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.SettingsController",
+    "Method": "UpdateSchool",
+    "RelativePath": "Settings/UpdateSchool",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updated",
+        "Type": "Tlinky.AdminWeb.Models.SystemSetting",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Index",
+    "RelativePath": "Teachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Add",
+    "RelativePath": "Teachers/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Delete",
+    "RelativePath": "Teachers/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Delete",
+    "RelativePath": "Teachers/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Edit",
+    "RelativePath": "Teachers/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "Edit",
+    "RelativePath": "Teachers/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Tlinky.AdminWeb.Models.Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "GetAll",
+    "RelativePath": "Teachers/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "ResetPassword",
+    "RelativePath": "Teachers/ResetPassword/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tlinky.AdminWeb.Controllers.TeachersController",
+    "Method": "ResetPassword",
+    "RelativePath": "Teachers/ResetPassword/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPassword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

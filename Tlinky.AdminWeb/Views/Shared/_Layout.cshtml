@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Tlinky Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            @await Html.PartialAsync("_Sidebar")
+        </aside>
+        <main class="main">
+            @await Html.PartialAsync("_Topbar")
+            <div class="content">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+    @RenderSection("Scripts", required: false)
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(content) {
+          document.getElementById("modal-body").innerHTML = content;
+          document.getElementById("modal").style.display = "flex";
+        }
+        function closeModal() {
+          document.getElementById("modal").style.display = "none";
+        }
+    </script>
+
+    <script src="~/js/site.js"></script>
+
+
+
+</body>
+</html>

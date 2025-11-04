@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Tlinky.AdminWeb.Models.Incident>
+
+@{
+    ViewData["Title"] = "Incident Reports";
+}
+
+<div class="container-fluid mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+            
+            <span class="badge bg-light text-dark">@Model.Count() record(s)</span>
+        </div>
+
+        <div class="card-body">
+            @if (!Model.Any())
+            {
+                <div class="text-center text-muted py-4">
+                    <i class="bi bi-emoji-smile fs-1 mb-3"></i>
+                    <p>No incidents have been reported yet.</p>
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th>#</th>
+                                <th>Child</th>
+                                <th>Class</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Teacher</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                var i = 1;
+                                foreach (var incident in Model)
+                                {
+                                    <tr>
+                                        <td>@i</td>
+                                        <td>@(incident.Child?.FullName ?? "N/A")</td>
+                                        <td>@(incident.Class?.Name ?? "N/A")</td>
+                                        <td>
+                                            <span class="badge bg-danger-subtle text-danger border border-danger rounded-pill px-3">
+                                                @incident.Type
+                                            </span>
+                                        </td>
+                                        <td>@incident.Description</td>
+                                        <td>@(incident.Teacher?.FullName ?? "N/A")</td>
+                                        <td>@incident.Date.ToLocalTime().ToString("yyyy-MM-dd HH:mm")</td>
+                                    </tr>
+                                    i++;
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .bg-danger-subtle {
+        background-color: rgba(255, 0, 0, 0.05);
+    }
+
+    .table th, .table td {
+        vertical-align: middle !important;
+    }
+
+    .card-header {
+        border-bottom: none;
+    }
+</style>
