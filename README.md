@@ -77,7 +77,7 @@ Cloudinary Account
 
 2️⃣ Clone the Repository
 
-git clone https://github.com/Andrew-Mukavela/Tlinky-Creche-System.git
+git clone https://github.com/Andrewm424/Tlinky-Creche-System.git
 
 cd Tlinky-Creche-System
 
